@@ -1,0 +1,10 @@
+Whole Practice Assignment	Perform the Following Tasks & Submit for SME Evaluation (Mandatory for all USERs):   4HRS 30 MINS
+
+1.Write a program to create a cap Directive and display the cap in three different colours using template and style at fixed location - (1HR)
+
+2.Write a program to create a matchUi Directive and display scores and match winning status by Player Card using element and attribute with text formatting - (1HR)
+
+3.Write a program to add player to the cricket field and display using dependency injection, scope, element, attribute and controller with blinking - (1HR)		
+
+MAIN OVERALL WHOLE ASSIGNMENT: Write a program to add player to the cricket field using dependency injection. Also restrict player by type and scope by using bind functions and isolated scop3 - (1HR 30MINS)	
+

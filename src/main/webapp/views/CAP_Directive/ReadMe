@@ -1,0 +1,27 @@
+Racing into Turn One
+	Replacing ng-include with a Directive
+
+Creating Our First Directive
+
+Learning about Isolate Scope
+
+Giving Our Directive Some Style	Write a program to create a cap Directive by replacing ng-include and display the cap in default colour
+
+
+
+
+TIME TAKEN : 30MINS	Write a program to create a cap Directive and display the cap in three different colours using template and style
+
+
+
+
+TIME TAKEN : 30MINS	
+Write a program to create a cap Directive and display the cap in three different colours using template, style and isolated scope
+
+
+TIME TAKEN : 15MINS	Write a program to create a cap Directive and display the cap in three different colours using template and style at fixed location
+
+
+
+
+TIME TAKEN : 1HR
