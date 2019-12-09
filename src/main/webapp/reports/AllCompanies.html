@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <!--jQuery-->
+    <link data-require="bootstrap-css@*" data-semver="4.0.0-alpha.4" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+  
+	
+  
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Title of the document -1</title>
+
+    
+    <style>
+   table, th , td {
+      border: 1px solid grey;
+      border-collapse: collapse;
+      padding: 5px;
+   }
+   
+   table tr:nth-child(odd) {
+      background-color: #f2f2f2;
+   }
+
+   table tr:nth-child(even) {
+      background-color: #ffffff;
+   }
+</style>
+
+    
+  </head>
+
+  <body ng-controller="AllCompaniesController">
+    
+<div class="row">
+
+    <div class="col-sm-12">
+        <h2>All Companies</h2>
+    </div>
+    
+  <table border="1" align="center">
+     <tr>
+       <th>Company Name</th>
+       <th>Address</th>
+       <th>Company Registratin No</th>
+       <th>CEO</th>
+     <tr>
+     <tr ng-repeat="company in companies">
+       <td>{{company.companyName}}</td>
+       <td>{{company.address}}</td>
+       <td>{{company.companyRegistratinNo}}</td>
+         <td>{{company.ceoName}}</td>
+     </tr>
+</table>
+
+</div>
+
+</body>
+</html>
